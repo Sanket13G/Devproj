@@ -97,7 +97,7 @@ const AddModal = ({
                 </Col>
                 <Col>
                   <div className="form-group">
-                    <label className="forlabel">Airline Description</label>
+                    <label className="forlabel">Airlines Description</label>
                     <input
                       type="text"
                       name="airlineDesc"
