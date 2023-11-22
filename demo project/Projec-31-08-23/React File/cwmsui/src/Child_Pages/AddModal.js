@@ -84,7 +84,7 @@ const AddModal = ({
               <Row>
                 <Col>
                   <div className="form-group">
-                    <label className="forlabel">Flight Number</label>
+                    <label className="forlabel">Fligh Number</label>
                     <input
                       type="text"
                       name="flightNo"
