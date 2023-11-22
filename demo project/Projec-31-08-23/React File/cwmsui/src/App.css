@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pad{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.body{
+  background-color: cornsilk;
+    font-family: inherit;
+    margin: 3px -28px 0 0px;
+  }
+  .y{
+    width: 50%;
+    margin-top: 27px;
+  }
+  .c{
+    margin-top: 36px;
+  }
+  .bt
+  {
+    margin-bottom: 18px;
+  }
+  .body
+  {
+    background-color: darksalmon;
+  }
+  .b1{
+    margin-top: 18px;
+    margin-left: 18px;
+  }
+  .add-new-btn
+  {
+  float: right;
+  }
+  .MyCard{
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    margin-top: 18PX;
+    width: 100%;
+  }
+  label{
+    font-size: small;
+  }
+
+/* .backgroundforpages{
+  background-color: #B4F5FF;
+} */
+
+
+.content-collapsed {
+  padding-left: 60px; /* Adjust this value based on your sidebar width */
+  transition: padding-left 0.3s ease-in-out;
+}
+
+.content-collapsed .sidebar-collapsed {
+  width: 60px; /* Width of the collapsed sidebar */
+}
+
+.content-collapsed .sidebar-expanded {
+  width: 250px; /* Width of the expanded sidebar */
+}
+
+.content-wrapper {
+  height: calc(100vh - 60px); /* Adjust the height based on your layout */
+  overflow-y: auto;
+  padding: 10px; /* Add padding for a better visual */
+}
+.widthbtn
+{
+  width: 7vw;
+}
+.link {
+  transition: none !important; /* Disable transitions */
+  animation: none !important; /* Disable animations */
+  /* Add any other necessary styling here */
+  font-size: 16px;
+}
+.link:hover {
+  font-size: 16px !important; /* Prevent font size change on hover */
+  /* Any other hover styles you want */
+}
+.table-responsive .table-bordered.custom-table tbody .highlighted-row {
+  background-color: skyblue;
+  color: blue;
+}
+
+.table {
+  table-layout: auto;
+  width: auto;
+}
+
+.table th {
+  white-space: nowrap;
+}
+
